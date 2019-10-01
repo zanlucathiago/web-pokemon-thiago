@@ -1,0 +1,511 @@
+{
+  "route29": {
+    "name": "Route 29",
+    "mapDescription": "A road that begins a journey. The road smells like freshly cut grass.",
+    "connectingLocations": {
+      "northExit": "route46",
+      "westExit": "cherrygroveCity",
+      "eastExit": "newBarkTown"
+    },
+    "wildPokemon": {
+      "standardWalking": {
+        "morning": [
+          {
+            "name": "pidgey",
+            "ratio": 0.55,
+            "level": [2, 4]
+          },
+          {
+            "name": "sentret",
+            "ratio": 0.4,
+            "level": [2, 3]
+          },
+          {
+            "name": "rattata",
+            "ratio": 0.05,
+            "level": [4, 4]
+          }
+        ],
+        "day": [
+          {
+            "name": "pidgey",
+            "ratio": 0.55,
+            "level": [2, 4]
+          },
+          {
+            "name": "sentret",
+            "ratio": 0.4,
+            "level": [2, 3]
+          },
+          {
+            "name": "rattata",
+            "ratio": 0.05,
+            "level": [4, 4]
+          }
+        ],
+        "night": [
+          {
+            "name": "hoothoot",
+            "ratio": 0.85,
+            "level": [2, 4]
+          },
+          {
+            "name": "rattata",
+            "ratio": 0.15,
+            "level": [2, 4]
+          }
+        ]
+      }
+    }
+  },
+  "route30": {
+    "name": "Route 30",
+    "mapDescription": "A grassy path where you can battle other young Trainers.",
+    "connectingLocations": {
+      "northExit": "route31",
+      "southExit": "cherrygroveCity"
+    }
+  },
+  "route31": {
+    "name": "Route 31",
+    "mapDescription": "A short, nostalgic path winding through nature.",
+    "connectingLocations": {
+      "southExit": "route30",
+      "westExit": "violetCity",
+      "accessTo": "darkCave"
+    }
+  },
+  "route32": {
+    "name": "Route 32",
+    "mapDescription": "A path crossed by the Magnet Train bridge--nature meets technology.",
+    "connectingLocations": {
+      "northExit": "violetCity",
+      "southExit": "unionCave",
+      "westExit": "ruinsOfAlph"
+    }
+  },
+  "route33": {
+    "name": "Route 33",
+    "mapDescription": "A difficult and always rainy path that comes out in a cave.",
+    "connectingLocations": {
+      "eastExit": "unionCave",
+      "westExit": "azaleaTown"
+    }
+  },
+  "route34": {
+    "name": "Route 34",
+    "mapDescription": "A lush, green path, even though it's right next to a city.",
+    "connectingLocations": {
+      "northExit": "goldenrodCity",
+      "southExit": "ilexForest"
+    }
+  },
+  "route35": {
+    "name": "Route 35",
+    "mapDescription": "A bright path with a lake that's easy on the eyes and easy to traverse.",
+    "connectingLocations": {
+      "northExit": "route36",
+      "southExit": "goldenrodCity",
+      "accessTo": "nationalPark"
+    }
+  },
+  "route36": {
+    "name": "Route 36",
+    "mapDescription": "A green and densely overgrown path that forks in two directions.",
+    "connectingLocations": {
+      "northExit": "route37",
+      "southExit": "ruinsOfAlph",
+      "eastExit": "violetCity",
+      "westExit": "route35",
+      "accessTo": "nationalPark"
+    }
+  },
+  "route37": {
+    "name": "Route 37",
+    "mapDescription": "A popular route for Trainers, marked by three Apricorn trees.",
+    "connectingLocations": {
+      "northExit": "ecruteakCity",
+      "southExit": "route36"
+    }
+  },
+  "route38": {
+    "name": "Route 38",
+    "mapDescription": "A path that weaves through trees and comes out at a farm.",
+    "connectingLocations": {
+      "eastExit": "ecruteakCity",
+      "westExit": "route39"
+    }
+  },
+  "route39": {
+    "name": "Route 39",
+    "mapDescription": "A downhill path that passes through a grassy and breezy plain.",
+    "connectingLocations": {
+      "southExit": "olivineCity",
+      "eastExit": "route38"
+    }
+  },
+  "route40": {
+    "name": "Route 40",
+    "mapDescription": "You can hear the waves on this path from west Olivine City to the sea.",
+    "connectingLocations": {
+      "northExit": "frontierAccess",
+      "southExit": "route41",
+      "eastExit": "olivineCity"
+    }
+  },
+  "route41": {
+    "name": "Route 41",
+    "mapDescription": "A rough spot in the sea where whirlpools block your path.",
+    "connectingLocations": {
+      "northExit": "route40",
+      "westExit": "cianwoodCity",
+      "accessTo": "whirlIslands"
+    }
+  },
+  "route42": {
+    "name": "Route 42",
+    "mapDescription": "A small path opened at the base of challenging Mt. Mortar with multiple entrances to it.",
+    "connectingLocations": {
+      "eastExit": "mahoganyTown",
+      "westExit": "ecruteakCity",
+      "accessTo": "mtMortar"
+    }
+  },
+  "route43": {
+    "name": "Route 43",
+    "mapDescription": "A woodland path that comes out at a lake. Beware the greedy gate.",
+    "connectingLocations": {
+      "northExit": "lakeOfRage",
+      "southExit": "mahoganyTown"
+    }
+  },
+  "route44": {
+    "name": "Route 44",
+    "mapDescription": "A wonderful path with a few pleasant springs and abundant greenery.",
+    "connectingLocations": {
+      "eastExit": "icePath",
+      "westExit": "mahoganyTown"
+    }
+  },
+  "route45": {
+    "name": "Route 45",
+    "mapDescription": "A winding road by a river, but called \"Mountain Road.\"",
+    "connectingLocations": {
+      "northExit": "blackthornCity",
+      "southExit": "route46",
+      "accessTo": "darkCave"
+    }
+  },
+  "route46": {
+    "name": "Route 46",
+    "mapDescription": "A way home that runs from the base of the mountains to the plains.",
+    "connectingLocations": {
+      "southExit": "route29",
+      "eastExit": "route45",
+      "accessTo": "darkCave"
+    }
+  },
+  "route47": {
+    "name": "Route 47",
+    "mapDescription": "A road on a cliff that strikes fear in the hearts of those who dare to pass.",
+    "connectingLocations": {
+      "northExit": "route48",
+      "eastExit": "cliffEdgeGate",
+      "accessTo": ["cliffCave", "embeddedTower"]
+    }
+  },
+  "route48": {
+    "name": "Route 48",
+    "mapDescription": "A pleasant path from the base of the mountain to the Safari Zone.",
+    "connectingLocations": {
+      "northExit": "safariZoneGate",
+      "southExit": "route47"
+    }
+  },
+  "azaleaTown": {
+    "name": "Azalea Town",
+    "mapDescription": "A town where people and Pokémon live together in simple harmony.",
+    "connectingLocations": {
+      "eastExit": "route33",
+      "westExit": "ilexForest",
+      "accessTo": "slowpokeWell"
+    }
+  },
+  "battleFrontier": {
+    "name": "Battle Frontier",
+    "mapDescription": "A place where people from all over come to show off their strength.",
+    "connectingLocations": {
+      "southExit": "frontierAccess"
+    }
+  },
+  "battleTower": {
+    "name": "Battle Tower",
+    "connectingLocations": {
+      "southExit": "route40"
+    }
+  },
+  "bellchimeTrail": {
+    "name": "Bellchime Trail",
+    "mapDescription": "A path said to always be bathed in sunset, no matter what the season.",
+    "connectingLocations": {
+      "westExit": "ecruteakCity",
+      "accessTo": "bellTower"
+    }
+  },
+  "bellTower": {
+    "name": "Bell Tower",
+    "mapDescription": "A tower that's said to have a legendary Pokémon that lands there.",
+    "connectingLocations": {
+      "southExit": "bellchimeTrail"
+    }
+  },
+  "blackthornCity": {
+    "name": "Blackthorn City",
+    "mapDescription": "",
+    "connectingLocations": {
+      "northExit": "icePath",
+      "southExit": "route45",
+      "accessTo": "dragonsDen"
+    }
+  },
+  "burnedTower": {
+    "name": "Burned Tower",
+    "mapDescription": "",
+    "connectingLocations": {
+      "southExit": "ecruteakCity"
+    }
+  },
+  "cherrygroveCity": {
+    "name": "Cherrygrove City",
+    "mapDescription": "",
+    "connectingLocations": {
+      "northExit": "route30",
+      "eastExit": "route29"
+    }
+  },
+  "cianwoodCity": {
+    "name": "Cianwood City",
+    "mapDescription": "",
+    "connectingLocations": {
+      "eastExit": "route41",
+      "westExit": "cliffEdgeGate"
+    }
+  },
+  "cliffCave": {
+    "name": "Cliff Cave",
+    "mapDescription": "",
+    "connectingLocations": {
+      "westExit": "route47"
+    }
+  },
+  "cliffEdgeGate": {
+    "name": "Cliff Edge Gate",
+    "mapDescription": "",
+    "connectingLocations": {
+      "eastExit": "cianwoodCity",
+      "westExit": "route47"
+    }
+  },
+  "darkCave": {
+    "name": "Dark Cave",
+    "connectingLocations": {
+      "northExit": "route46",
+      "eastExit": "route45",
+      "westExit": "route31"
+    }
+  },
+  "dragonsDen": {
+    "name": "Dragon's Den",
+    "connectingLocations": {
+      "southExit": "blackthornCity"
+    }
+  },
+  "ecruteakCity": {
+    "name": "Ecruteak City",
+    "connectingLocations": {
+      "northExit": "bellchimeTrail",
+      "southExit": "route37",
+      "eastExit": "route42",
+      "westExit": "route38",
+      "accessTo": ["bellTower", "burnedTower"]
+    }
+  },
+  "embeddedTower": {
+    "name": "Embedded Tower",
+    "connectingLocations": {
+      "westExit": "route47"
+    }
+  },
+  "frontierAccess": {
+    "name": "Frontier Access",
+    "connectingLocations": {
+      "northExit": "battleFrontier",
+      "southExit": "route40"
+    }
+  },
+  "goldenrodCity": {
+    "name": "Goldenrod City",
+    "connectingLocations": {
+      "northExit": "route35",
+      "southExit": "route34",
+      "accessTo": ["radioTower", "goldenrodUnderground", "saffronCity"]
+    }
+  },
+  "goldenrodUnderground": {
+    "name": "Goldenrod Underground",
+    "connectingLocations": {
+      "northExit": "goldenrodCity",
+      "southExit": "goldenrodCity"
+    }
+  },
+  "icePath": {
+    "name": "Ice Path",
+    "connectingLocations": {
+      "eastExit": "blackthornCity",
+      "westExit": "route44"
+    }
+  },
+  "ilexForest": {
+    "name": "Ilex Forest",
+    "connectingLocations": {
+      "northExit": "route34",
+      "eastExit": "azaleaTown"
+    }
+  },
+  "lakeOfRage": {
+    "name": "Lake of Rage",
+    "connectingLocations": {
+      "southExit": "route43"
+    }
+  },
+  "mahoganyTown": {
+    "name": "Mahogany Town",
+    "connectingLocations": {
+      "northExit": "route43",
+      "eastExit": "route44",
+      "westExit": "route42",
+      "accessTo": "rocketHideout"
+    }
+  },
+  "mtMortar": {
+    "name": "Mt. Mortar",
+    "connectingLocations": {
+      "southExit": "route42"
+    }
+  },
+  "mtSilver": {
+    "name": "Mt. Silver",
+    "connectingLocations": {
+      "eastExit": "route28"
+    }
+  },
+  "nationalPark": {
+    "name": "National Park",
+    "connectingLocations": {
+      "southExit": "route35",
+      "eastExit": "route36",
+      "westExit": "pokeathlonDome"
+    }
+  },
+  "newBarkTown": {
+    "name": "New Bark Town",
+    "connectingLocations": {
+      "westExit": "route29"
+    }
+  },
+  "olivineCity": {
+    "name": "Olivine City",
+    "connectingLocations": {
+      "northExit": "route39",
+      "westExit": "route40",
+      "accessTo": ["shiningLighthouse", "ssAqua"]
+    }
+  },
+  "pokeathlonDome": {
+    "name": "Pokéathlon Dome",
+    "connectingLocations": {
+      "eastExit": "nationalPark"
+    }
+  },
+  "radioTower": {
+    "name": "Radio Tower",
+    "connectingLocations": {
+      "southExit": "goldenrodCity"
+    }
+  },
+  "rocketHideout": {
+    "name": "Rocket Hideout",
+    "connectingLocations": {
+      "southExit": "mahoganyTown"
+    }
+  },
+  "ruinsOfAlph": {
+    "name": "Ruins of Alph",
+    "connectingLocations": {
+      "northExit": "route36",
+      "southExit": "unionCave",
+      "eastExit": "route32",
+      "accessTo": "sinjohRuins"
+    }
+  },
+  "safariZone": {
+    "name": "Safari Zone",
+    "connectingLocations": {
+      "southExit": "safariZoneGate"
+    }
+  },
+  "safariZoneGate": {
+    "name": "Safari Zone Gate",
+    "connectingLocations": {
+      "northExit": "safariZone",
+      "southExit": "route48"
+    }
+  },
+  "shiningLighthouse": {
+    "name": "Shining Lighthouse",
+    "connectingLocations": {
+      "southExit": "olivineCity"
+    }
+  },
+  "slowpokeWell": {
+    "name": "Slowpoke Well",
+    "connectingLocations": {
+      "southExit": "azaleaTown"
+    }
+  },
+  "sproutTower": {
+    "name": "Sprout Tower",
+    "connectingLocations": {
+      "southExit": "violetCity"
+    }
+  },
+  "ssAqua": {
+    "name": "SS Aqua",
+    "connectingLocations": {
+      "accessTo": ["olivineCity", "vermilionCity"]
+    }
+  },
+  "unionCave": {
+    "name": "Union Cave",
+    "connectingLocations": {
+      "northExit": "route32",
+      "southExit": "route33",
+      "accessTo": "ruinsOfAlph"
+    }
+  },
+  "violetCity": {
+    "name": "Violet City",
+    "connectingLocations": {
+      "southExit": "route32",
+      "eastExit": "route31",
+      "westExit": "route36",
+      "accessTo": "sproutTower"
+    }
+  },
+  "whirlIslands": {
+    "name": "Whirl Islands",
+    "connectingLocations": {
+      "southExit": "route41"
+    }
+  }
+}
